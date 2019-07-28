@@ -1,3 +1,11 @@
+/*******************************************************************************
+Title: HDICalculator.java
+Authors: Omar Khan
+Date: 7/28/19
+
+Desciription: This class constructs an HDI calculator that returns the Hydrogen 
+Deficiency Index of a Molecule object.
+*******************************************************************************/
 public class HDICalculator {
     private final Molecule testMolecule;
     /*
