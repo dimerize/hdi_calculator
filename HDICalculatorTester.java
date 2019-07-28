@@ -1,5 +1,13 @@
 import java.util.Scanner;
+/*******************************************************************************
+Title: ExpendEnergyAction.java
+Authors: Ryan Chimienti, Jake Crampton
+Date: 2/11/19
 
+Desciription: This code was written for project 1 of CS4013 in Spring '19 at the
+University of Oklahoma. This code defines movements that let us spin, pivot, and
+accelerate as quickly as possible, as the default controls are slow.
+*******************************************************************************/
 public class HDICalculatorTester {
     public static void main(String[] args) {
         System.out.println("Welcome to the Hydrogen Deficiency Index Calculator!");
@@ -12,42 +20,42 @@ public class HDICalculatorTester {
         System.out.println("exhibits classical tetravalent properties in all of its");
         System.out.println("atoms.");
         System.out.println("");
-        
+
         Scanner reader = new Scanner(System.in);
         Molecule organic = new Molecule();
-        
+
         System.out.println("How many carbon atoms does the molecule contain?");
         if (reader.hasNextInt()) {
             organic.setNumberOfCarbons(reader.nextInt());
         }
-        
+
         System.out.println("How many nitrogen atoms does the molecule contain?");
         if (reader.hasNextInt()) {
             organic.setNumberOfNitrogens(reader.nextInt());
         }
-        
+
         System.out.println("How many hydrogen atoms does the molecule contain?");
         if (reader.hasNextInt()) {
             organic.setNumberOfHydrogens(reader.nextInt());
         }
-        
+
         System.out.println("How many halogen atoms does the molecule contain?");
         if (reader.hasNextInt()) {
             organic.setNumberOfHalogens(reader.nextInt());
         }
-        
+
         System.out.println("How many oxygen atoms does the molecule contain?");
         if (reader.hasNextInt()) {
             if (reader.nextInt() > 0) {
                 organic.setPresenceOfOxygen(true);
             }
         }
-        
+
         HDICalculator calculator = new HDICalculator(organic);
         int index = calculator.calculateIndex();
-        
+
         System.out.println("Hydrogen Deficiency Index: "+index);
-        
+
         if (index == 0) {
             if (organic.getNumberOfCarbons() > 0) {
                 System.out.println("\nThe molecule is a saturated organic molecule.");
@@ -55,13 +63,13 @@ public class HDICalculatorTester {
                     System.out.println("\nThe molecule may contain an amine functional group; no determination can be made regarding the degree of the amine.");
                     if (organic.oxygenIsPresent()) {
                         System.out.println("\nThe molecule may also contain a nitro or nitroso group.");
-                    }    
+                    }
                 } else if (organic.oxygenIsPresent()) {
                     System.out.println("\nThe molecule contains either an ether or alcohol moiety.");
                 }
             } else if (organic.getNumberOfNitrogens() > 0) {
                 System.out.println("\nThe molecule is either ammonia (or an ammonia derivative) or an extended ammonia-like structure (such as hydrazine).");
-            }            
+            }
         } else {
             System.out.println("\nThe molecule may be cyclic.");
             if (organic.oxygenIsPresent()) {
