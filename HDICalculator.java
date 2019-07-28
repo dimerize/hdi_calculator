@@ -1,13 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author o518316k
- */
 public class HDICalculator {
     private final Molecule testMolecule;
     /*
@@ -25,6 +15,6 @@ public class HDICalculator {
         int xIndex = (2*(testMolecule.getNumberOfCarbons() + (testMolecule.getNumberOfNitrogens()/2)))+2;
         int yIndex = testMolecule.getNumberOfHydrogens() + testMolecule.getNumberOfHalogens();
         
-        return (yIndex - xIndex)/2;
+        return (xIndex - yIndex)/2;
     }
 }
