@@ -1,12 +1,11 @@
 import java.util.Scanner;
 /*******************************************************************************
-Title: ExpendEnergyAction.java
-Authors: Ryan Chimienti, Jake Crampton
-Date: 2/11/19
+Title: HDICalculatorTester.java
+Authors: Omar Khan
+Date: 7/28/19
 
-Desciription: This code was written for project 1 of CS4013 in Spring '19 at the
-University of Oklahoma. This code defines movements that let us spin, pivot, and
-accelerate as quickly as possible, as the default controls are slow.
+Desciription: This code acts as a tester class for the HDI calculator, and also
+returns potential structural information about the relevant molecule.
 *******************************************************************************/
 public class HDICalculatorTester {
     public static void main(String[] args) {
