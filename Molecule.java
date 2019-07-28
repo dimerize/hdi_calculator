@@ -1,3 +1,12 @@
+/*******************************************************************************
+Title: Molecule.java
+Authors: Omar Khan
+Date: 7/28/19
+
+Desciription: This class constructs a Molecule object, which contains the number
+and type of atoms in the molecule. The Molecule object also acts as input for the
+HDICalculator class.
+*******************************************************************************/
 public class Molecule {
     private int numberOfCarbons;
     private int numberOfHydrogens;
