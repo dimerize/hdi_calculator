@@ -1,7 +1,7 @@
 # hdi_calculator
 A simple program for calculating the Hydrogen Deficiency Index of a molecule. The program also returns potential structural features of the molecule.
 
-The calculator assumes the molecule is uncharged and each atom within the molecule ehxibits standard valency within the molecular structure.
+The calculator assumes the molecule is uncharged and each atom within the molecule exhibits standard valency within the molecular structure.
 
 The calculator currently supports HDI calculation for standard organic molecules containing carbon, hydrogen, oxygen, nitrogen, and halogens. The calculator also provides the HDI for certain nitrogenous inorganic molecules, such as hydrazine. The calculator does not support HDI calculations of multivalent halogens, such as interhalogen compounds.
 
