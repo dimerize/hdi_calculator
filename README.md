@@ -32,7 +32,7 @@ In addition, the calculator returns standard functional group moieties that may 
 
 The program's output for isopropanol (rubbing alcohol), C<sub>3</sub>H<sub>8</sub>O:
 
-<img src="./rubbingAlcoholHDI.PNG" width=300 />
+<img src="./rubbingAlcoholHDI.PNG" width=400 />
 
 The program's output for furan, C<sub>4</sub>H<sub>4</sub>O:
 
