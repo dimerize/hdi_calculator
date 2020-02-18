@@ -7,11 +7,11 @@ A molecule's hydrogen deficiency index, or HDI, is a measure of the number of ri
 
 The HDI of a molecule, also known as the molecule's degree of unsaturation, is straightforward to observe from the molecule's structure. Each ring adds one to the total HDI of the molecule, as does each double bond. For the purposes of HDI calculation, a triple bond is equivalent to two double bonds. For example, isopropanol (rubbing alcohol) has no double bonds or rings in its structure, giving it an HDI of zero.
 
-<img src="./rubbingAlcohol.jpg"/>
+<img src="./rubbingAlcohol.jpg" width=500 />
 
 However, furan has a ring and two double bonds in its structure, giving it an HDI of three.
 
-<img src="./furan.png"/>
+<img src="./furan.png" width=500 />
 
 A formula for HDI also exists, based on the number of carbons, nitrogens, hydrogens, and halogens in the molecule:
 
