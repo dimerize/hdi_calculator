@@ -2,6 +2,10 @@
 A simple program for calculating the Hydrogen Deficiency Index of a molecule. The program also returns potential structural features of the molecule.
 
 The calculator assumes the molecule is uncharged and each atom within the molecule exhibits standard valency within the molecular structure.
+### Background 
+A molecule's hydrogen deficiency index, or HDI, is a measure of the number of rings and π bonds within the molecule's structure. Each organic molecule (with standard valency and charge properties) has a non-negative integer valued HDI. 
+
+The HDI of a molecule is calculated as the total number of 
 ### Motivation
 Calculating a molecule's hydrogen deficiency index is a necessary step in the determination of structural features of organic (and certain inorganic) molecules.
 ### Functionality
