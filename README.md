@@ -5,12 +5,18 @@ The calculator assumes the molecule is uncharged and each atom within the molecu
 ### Background 
 A molecule's hydrogen deficiency index, or HDI, is a measure of the number of rings and π bonds within the molecule's structure. Each organic molecule (with standard valency and charge properties) has a non-negative integer valued HDI.  
 
-The HDI of a molecule, also known as the molecule's degree of unsaturation, is straightforward to observe from the molecule's structure. Each ring adds one to the total HDI of the molecule, as does each double bond. For the purposes of HDI calculation, a triple bond is equivalent to two double bonds. A formula for HDI also exists, based on the number of carbons, nitrogens, hydrogens, and halogens in the molecule:
+The HDI of a molecule, also known as the molecule's degree of unsaturation, is straightforward to observe from the molecule's structure. Each ring adds one to the total HDI of the molecule, as does each double bond. For the purposes of HDI calculation, a triple bond is equivalent to two double bonds. For example, isopropanol (rubbing alcohol) has no double bonds or rings in its structure, giving it an HDI of zero.
+
+
+
+However, furan has a ring and two double bonds in its structure, giving it an HDI of three.
+
+A formula for HDI also exists, based on the number of carbons, nitrogens, hydrogens, and halogens in the molecule:
 
 <img src="./hdiFormula.svg"/>
 
 ### Motivation
-Calculating a molecule's hydrogen deficiency index is a necessary step in the determination of structural features of organic (and certain inorganic) molecules. The degree of unsaturation of a molecule acts as a very strong constraint on the possible number of structures the molecule can theoretically observe, as displayed in the following table.
+Calculating a molecule's HDI is a necessary step in the determination of structural features of organic (and certain inorganic) molecules. The degree of unsaturation of a molecule acts as a very strong constraint on the possible number of structures the molecule can theoretically observe, as displayed in the following table.
 
 <img src="./hdiExplanation.png"/>
 
