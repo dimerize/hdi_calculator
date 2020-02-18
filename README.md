@@ -11,7 +11,7 @@ The HDI of a molecule, also known as the molecule's degree of unsaturation, is s
 
 However, furan has a ring and two double bonds in its structure, giving it an HDI of three.
 
-<img src="./furan.png" width=250 />
+<img src="./furan.png" width=200 />
 
 A formula for HDI also exists, based on the number of carbons, nitrogens, hydrogens, and halogens in the molecule:
 
