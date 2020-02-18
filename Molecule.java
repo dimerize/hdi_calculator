@@ -1,8 +1,6 @@
 /*******************************************************************************
 Title: Molecule.java
 Authors: Omar Khan
-Date: 7/28/19
-
 Desciription: This class constructs a Molecule object, which contains the number
 and type of atoms in the molecule. The Molecule object also acts as input for the
 HDICalculator class.
@@ -12,25 +10,18 @@ public class Molecule {
     private int numberOfHydrogens;
     private int numberOfNitrogens;
     private int numberOfHalogens;
-    private boolean presenceOfOxygen;
-    /*
-    The number of oxygen atoms is not accounted for because the number
-    of oxygen atoms in a molecule has no bearing on the molecule's HDI.
-    This is on account of oxygen's divalency. However, the presence of 
-    oxygen should be noted, as oxygen's presence dictates the possible
-    functional groups present in the molecule.
-    */
+    private int numberOfOxygens;
 
-    public Molecule(int numberOfCarbons, int numberOfHydrogens, int numberOfNitrogens, int numberOfHalogens, boolean presenceOfOxygen) {
+    public Molecule(int numberOfCarbons, int numberOfHydrogens, int numberOfNitrogens, int numberOfHalogens, int numberOfOxygens) {
         this.numberOfCarbons = numberOfCarbons;
         this.numberOfHydrogens = numberOfHydrogens;
         this.numberOfNitrogens = numberOfNitrogens;
         this.numberOfHalogens = numberOfHalogens;
-        this.presenceOfOxygen = presenceOfOxygen;
+        this.numberOfOxygens = numberOfOxygens;
     }
 
     public Molecule() {
-        this(0, 0, 0, 0, false);
+        this(0, 0, 0, 0, 0);
     }
 
     public void setNumberOfCarbons(int numberOfCarbons) {
@@ -49,8 +40,8 @@ public class Molecule {
         this.numberOfNitrogens = numberOfNitrogens;
     }
 
-    public void setPresenceOfOxygen(boolean presenceOfOxygen) {
-        this.presenceOfOxygen = presenceOfOxygen;
+    public void setNumberOfOxygens(int numberOfOxygens) {
+        this.numberOfOxygens = numberOfOxygens;
     }
 
     public int getNumberOfCarbons() {
@@ -69,7 +60,7 @@ public class Molecule {
         return numberOfNitrogens;
     }
 
-    public boolean oxygenIsPresent() {
-        return presenceOfOxygen;
+    public int getNumberOfOxygens() {
+        return numberOfOxygens;
     }
 }
