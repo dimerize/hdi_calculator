@@ -29,5 +29,12 @@ Since HDI determination is such a crucial step in figuring out molecular structu
 The calculator currently supports HDI calculation for standard organic molecules containing carbon, hydrogen, oxygen, nitrogen, and halogens. The calculator also provides the HDI for certain nitrogenous inorganic molecules, such as hydrazine. The calculator does not support HDI calculations of multivalent halogens, such as interhalogen compounds.
 
 In addition, the calculator returns standard functional group moieties that may be present in the molecule, as well as additional information such as potential aromaticity of the molecule and relevant spectroscopic methods that may prove useful for the provided molecule. The calculator does this based on various principles that dictate the presence of different functional groups in molecules by inputting the molecule's formula into a series of conditional statements that align with the aforementioned chemical principles and rules. 
+
+The program's output for isopropanol (rubbing alcohol) and furan, respectively, are as follows:
+
+<img src="./rubbingAlcoholHDI.PNG"/>
+
+<img src="./furanHDI.PNG"/>
+
 ### Future Vision
 Future steps for the calculator include incorporating higher period elements exhibiting standard valency properties in HDI calculation (e.g. calculating the HDI of pnictogen hydrides, or organic chalcogen/boron group molecules), and refining the potential functional groups the calculator returns after the HDI is calculated. A website is also currently being set up for ease of access to the hdiplus smart calculator system.
