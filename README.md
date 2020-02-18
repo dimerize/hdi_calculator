@@ -7,7 +7,7 @@ A molecule's hydrogen deficiency index, or HDI, is a measure of the number of ri
 
 The HDI of a molecule, also known as the molecule's degree of unsaturation, is straightforward to observe from the molecule's structure. Each ring adds one to the total HDI of the molecule, as does each double bond. For the purposes of HDI calculation, a triple bond is equivalent to two double bonds. A formula for v_i
 
-<img src="./hdiExplanation.png" width=500/>
+<img src="./hdiFormula.svg" width=500/>
 ### Motivation
 Calculating a molecule's hydrogen deficiency index is a necessary step in the determination of structural features of organic (and certain inorganic) molecules.
 ### Functionality
