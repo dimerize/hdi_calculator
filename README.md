@@ -30,9 +30,11 @@ The calculator currently supports HDI calculation for standard organic molecules
 
 In addition, the calculator returns standard functional group moieties that may be present in the molecule, as well as additional information such as potential aromaticity of the molecule and relevant spectroscopic methods that may prove useful for the provided molecule. The calculator does this based on various principles that dictate the presence of different functional groups in molecules by inputting the molecule's formula into a series of conditional statements that align with the aforementioned chemical principles and rules. 
 
-The program's output for isopropanol (rubbing alcohol) and furan, respectively, are as follows:
+The program's output for isopropanol (rubbing alcohol), C<sub>3</sub>H<sub>8</sub>O:
 
-<img src="./rubbingAlcoholHDI.PNG"/>
+<img src="./rubbingAlcoholHDI.PNG" width=300 />
+
+The program's output for furan, C<sub>4</sub>H<sub>4</sub>O:
 
 <img src="./furanHDI.PNG"/>
 
