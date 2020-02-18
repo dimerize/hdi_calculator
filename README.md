@@ -3,11 +3,11 @@ A simple program for calculating the Hydrogen Deficiency Index of a molecule. Th
 
 The calculator assumes the molecule is uncharged and each atom within the molecule exhibits standard valency within the molecular structure.
 ### Background 
-A molecule's hydrogen deficiency index, or HDI, is a measure of the number of rings and π bonds within the molecule's structure. Each organic molecule (with standard valency and charge properties) has a non-negative integer valued HDI. 
+A molecule's hydrogen deficiency index, or HDI, is a measure of the number of rings and π bonds within the molecule's structure. Each organic molecule (with standard valency and charge properties) has a non-negative integer valued HDI.  
 
-<img src="./hdiExplanation.png" width=500/> 
+The HDI of a molecule, also known as the molecule's degree of unsaturation, is straightforward to observe from the molecule's structure. Each ring adds one to the total HDI of the molecule, as does each double bond. For the purposes of HDI calculation, a triple bond is equivalent to two double bonds. A formula for v_i
 
-The HDI of a molecule is calculated as the total number of 
+<img src="./hdiExplanation.png" width=500/>
 ### Motivation
 Calculating a molecule's hydrogen deficiency index is a necessary step in the determination of structural features of organic (and certain inorganic) molecules.
 ### Functionality
