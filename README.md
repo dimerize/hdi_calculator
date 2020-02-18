@@ -1,5 +1,5 @@
 # hdiplus
-A simple program for calculating the Hydrogen Deficiency Index of a molecule. The program also returns potential structural features of the molecule.
+A program for calculating the Hydrogen Deficiency Index of a molecule. The program also returns potential structural features of the molecule.
 
 The calculator assumes the molecule is uncharged and each atom within the molecule exhibits standard valency within the molecular structure.
 ### Background 
